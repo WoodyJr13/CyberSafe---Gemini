@@ -3,9 +3,8 @@
 
 A modern, responsive single-page website built to promote cybersecurity awareness and education. This project features a clean, minimalistic UI with interactive elements to help users learn how to stay safe online.
 
-**Live Demo Here:** [https://your-username.github.io/cybersafe-website/](https://your-username.github.io/cybersafe-website/)
+**Live Demo Here:** [https://your-username.github.io/cybersafe-website/](https://WoodyJr13.github.io/cybersafe-website/)
 
-*(Don't forget to replace `your-username` with your actual GitHub username!)*
 
 ---
 
