@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSafe | Stay Smart. Stay Secure.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="main-header">
+        <div class="container">
+            <a href="#" class="logo">CyberSafe</a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#learn">Learn</a></li>
+                    <li><a href="#scenarios">Scenarios</a></li>
+                    <li><a href="#tools">Tools</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+            <a href="https://www.cyber.nj.gov/" target="_blank" class="btn btn-primary cta">NJCCIC</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Welcome to CyberSafe</h1>
+                <p class="subheadline">Stay smart. Stay secure.</p>
+                <div class="hero-buttons">
+                    <a href="#learn" class="btn btn-primary">Explore Threats</a>
+                    <a href="#scenarios" class="btn btn-secondary">Try a Scenario</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="learn" class="content-section">
+            <div class="container">
+                <h2>Key Cybersecurity Concepts</h2>
+                <div class="card-grid">
+                    <article class="card">
+                        <h3>Phishing</h3>
+                        <p>Deceptive emails, texts, or cloned websites designed to steal your information. They often create a sense of urgency.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Social Engineering</h3>
+                        <p>The art of manipulating people into giving up confidential information. Tactics include pretexting, baiting, and tailgating.</p>
+                    </article>
+                    <article class="card">
+                        <h3>White Hat Hacking</h3>
+                        <p>Ethical hackers who find security vulnerabilities before malicious attackers do. A growing and important career path.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Password Safety</h3>
+                        <p>Use long, unique passphrases for each account and store them securely in a password manager. Avoid common words.</p>
+                    </article>
+                     <article class="card">
+                        <h3>Two-Factor Authentication (2FA)</h3>
+                        <p>A second layer of security. Use authenticator apps or physical security keys over SMS for the best protection.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section gray-bg">
+            <div class="container">
+                <h2>Spot the Red Flags</h2>
+                <p>Phishing emails try to trick you. Hover over the numbered red flags on this example to see what to look out for.</p>
+                <div id="red-flags-interactive">
+                    <img src="https://storage.googleapis.com/gemini-assets/202405_deepmind_ux/phishing_email_en.png" alt="Example of a phishing email">
+                    <div class="flag" id="flag-1" style="top: 15%; left: 35%;"><span class="flag-number">1</span></div>
+                    <div class="tooltip" id="tooltip-1"><strong>Urgent Subject Line:</strong> Attackers create a sense of panic to make you act without thinking. "Account Suspension" is a common tactic.</div>
+
+                    <div class="flag" id="flag-2" style="top: 32%; left: 15%;"><span class="flag-number">2</span></div>
+                    <div class="tooltip" id="tooltip-2"><strong>Generic Greeting:</strong> Vague greetings like "Dear Valued Customer" are a red flag. Legitimate companies usually address you by name.</div>
+
+                    <div class="flag" id="flag-3" style="top: 55%; left: 45%;"><span class="flag-number">3</span></div>
+                    <div class="tooltip" id="tooltip-3"><strong>Suspicious Link:</strong> Hover over links before clicking. Does the URL look strange or misspelled? Does it match the supposed sender?</div>
+                    
+                    <div class="flag" id="flag-4" style="top: 75%; left: 20%;"><span class="flag-number">4</span></div>
+                    <div class="tooltip" id="tooltip-4"><strong>Unexpected Attachments:</strong> Never open attachments you weren't expecting, even if they seem to be from someone you know. They can contain malware.</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="scenarios" class="content-section">
+             <div class="container">
+                <h2>Game Center – Choose the Best Action</h2>
+                <div class="scenario-card">
+                    <p class="scenario-question">You receive a text message: "Your bank account has been locked due to suspicious activity. Please click here to verify your identity." What do you do?</p>
+                    <div class="scenario-actions">
+                        <button class="btn-action" data-correct="false">Click the link immediately to secure my account.</button>
+                        <button class="btn-action" data-correct="true">Ignore the text and independently check my account by visiting the bank's official website or app.</button>
+                        <button class="btn-action" data-correct="false">Reply "STOP" to the text message.</button>
+                    </div>
+                    <p class="feedback"></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="content-section gray-bg">
+            <div class="container">
+                <div class="njccic-content">
+                    <div class="njccic-text">
+                        <h2>About the NJCCIC</h2>
+                        <p>The New Jersey Cybersecurity and Communications Integration Cell (NJCCIC) is the state's one-stop-shop for cybersecurity. It provides threat intelligence, best practices, and incident response for residents, businesses, and government.</p>
+                        <p>Youth programs include the Cyber Safety Patrol, Cadetships, High School Internships, and Capture the Flag (CTF) events to build the next generation of cyber defenders.</p>
+                        <a href="https://www.cyber.nj.gov/" target="_blank" class="btn btn-primary">Visit NJCCIC →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <section id="tools" class="content-section">
+            <div class="container">
+                <h2>Tools & Resources</h2>
+                <div class="card-grid">
+                    <a href="https://www.nomorobo.com/" target="_blank" class="card-link">
+                        <article class="card">
+                            <h3>Spam Blockers</h3>
+                            <p>Tools like Nomorobo, Truecaller, and Hiya can help filter out spam calls and texts.</p>
+                        </article>
+                    </a>
+                    <a href="https://bitwarden.com/" target="_blank" class="card-link">
+                        <article class="card">
+                            <h3>Password Managers</h3>
+                            <p>Securely store your passwords with trusted managers like Bitwarden or 1Password.</p>
+                        </article>
+                    </a>
+                    <a href="https://www.malwarebytes.com/" target="_blank" class="card-link">
+                         <article class="card">
+                            <h3>Antivirus Software</h3>
+                            <p>Protect your devices with reputable antivirus like Malwarebytes, Bitdefender, or the built-in Windows Defender.</p>
+                        </article>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Us</a>
+                <a href="#about">About NJCCIC</a>
+            </div>
+            <p class="copyright">© 2024 CyberSafe. Created by Ved Shah. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
